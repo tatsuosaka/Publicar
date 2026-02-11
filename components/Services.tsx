@@ -70,7 +70,7 @@ export const Services: React.FC = () => {
           viewport={{ once: true }}
           className="mb-16 md:mb-24"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight text-white">Nossas Expertise</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight text-white">Serviços</h2>
           <div className="h-1 w-20 bg-amber-500 rounded-full" />
         </motion.div>
 

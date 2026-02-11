@@ -22,10 +22,10 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, scale: 0.5, filter: 'blur(20px)' }}
           animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64"
+          className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 flex items-center justify-center"
         >
           <img 
-            src="./logo.webp" 
+            src="logo.webp" 
             alt="Publicar Agency" 
             className="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(245,158,11,0.2)]"
           />

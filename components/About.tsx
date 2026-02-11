@@ -12,14 +12,14 @@ export const About: React.FC = () => {
           viewport={{ once: true }}
         >
            <span className="text-amber-500 text-sm font-bold uppercase tracking-widest mb-4 block">
-            Filosofia
+            Sobre Nós
           </span>
-          <h2 className="text-4xl md:text-6xl font-medium tracking-tight text-white mb-10 leading-tight">
-            Não criamos apenas campanhas. <br />
-            <span className="text-zinc-500">Nós desenhamos legados.</span>
+          <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-white mb-10 leading-tight">
+            Conexões fortes, <br />
+            <span className="text-zinc-500">resultados reais.</span>
           </h2>
-          <p className="text-xl md:text-2xl text-zinc-400 font-light leading-relaxed max-w-2xl mx-auto">
-            Acreditamos que a estética não é apenas visual, é funcional. Na Publicar, cada pixel, cada palavra e cada frame são meticulosamente orquestrados para transmitir autoridade e sofisticação.
+          <p className="text-lg md:text-xl text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto">
+            Somos uma agência completa focada em performance e experiência. Integramos tráfego pago, produção audiovisual, assessoria de imprensa e ativações no varejo para criar estratégias baseadas em dados que impulsionam o crescimento real da sua marca.
           </p>
         </motion.div>
       </div>

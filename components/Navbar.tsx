@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
           onClick={(e) => handleScroll(e, 'about')}
           className="text-sm font-medium text-zinc-400 hover:text-white transition-colors hidden md:block cursor-pointer p-2"
         >
-          Filosofia
+          Sobre Nós
         </a>
         <motion.button 
           whileHover={{ scale: 1.05 }}
