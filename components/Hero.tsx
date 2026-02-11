@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
           className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64"
         >
           <img 
-            src="/logo.webp" 
+            src="./logo.webp" 
             alt="Publicar Agency" 
             className="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(245,158,11,0.2)]"
           />
