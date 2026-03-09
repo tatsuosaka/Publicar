@@ -4,7 +4,7 @@ export const Logo: React.FC<{ className?: string }> = ({ className = "" }) => {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
       <img 
-        src="/images/logo.svg" 
+        src="/images/logo-svg.svg" 
         alt="Publicar Logo" 
         className="w-10 h-10 object-contain"
       />

@@ -9,7 +9,7 @@ export const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Replace with the actual agency phone number
-    const phone = "5511999999999"; 
+    const phone = "11964883338"; 
     
     // Construct the WhatsApp URL
     const encodedMessage = encodeURIComponent(

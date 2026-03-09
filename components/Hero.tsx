@@ -5,16 +5,17 @@ import { ChevronDown } from 'lucide-react';
 export const Hero: React.FC = () => {
   // WhatsApp Link Handler
   const handleStartProject = () => {
-    const phone = "5511999999999"; // Replace with actual number
+    const phone = "11964883338"; // Replace with actual number
     const message = encodeURIComponent("Olá! Gostaria de iniciar um projeto com a Publicar.");
     window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
   };
 
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen px-4 overflow-hidden pt-20">
+    <section className="relative flex flex-col items-center justify-center min-h-screen px-4 overflow-hidden pt-20 bg-black">
       
       {/* Background Ambience */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-amber-500/10 blur-[120px] rounded-full pointer-events-none opacity-50" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-900/10 via-yellow-950/10 to-black pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-zinc-600/20 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="z-10 text-center max-w-5xl mx-auto space-y-12 flex flex-col items-center">
         {/* Animated Logo Image */}
@@ -25,9 +26,9 @@ export const Hero: React.FC = () => {
           className="relative w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 flex items-center justify-center"
         >
           <img 
-            src="/images/logo.svg" 
+            src="/images/logo-svg.svg" 
             alt="Publicar Agency" 
-            className="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(245,158,11,0.2)]"
+            className="w-full h-full object-contain transition-all duration-500 drop-shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:drop-shadow-[0_0_60px_rgba(255,255,255,0.2)] hover:scale-105 cursor-pointer"
           />
         </motion.div>
 
